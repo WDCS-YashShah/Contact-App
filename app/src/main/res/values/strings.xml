@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyContacts</string>
+
+    <string name="msg_no_internet_available">Please check your internet connection!</string>
+    <string name="error_required">This field is required</string>
+    <string name="error_invalid_number">Invalid contact number, Please try again.</string>
+</resources>

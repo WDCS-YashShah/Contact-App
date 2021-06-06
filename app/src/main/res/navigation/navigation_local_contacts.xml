@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_local_contacts"
+    app:startDestination="@+id/fragment_local_contacts_list">
+
+    <fragment
+        android:id="@+id/fragment_local_contacts_list"
+        android:name="com.mycontacts.ui.fragments.local_contacts.LocalContactsFragment"
+        android:label="Local Contacts"
+        tools:layout="@layout/f_local_contact_list">
+
+    </fragment>
+
+    <!--<fragment
+        android:id="@+id/navigation_product_details"
+        android:name="com.aloyoga.shop.ui.fragments.product_details.ProductDetailsFragment"
+        android:label="@string/title_product_details"
+        tools:layout="@layout/f_product_details">
+
+    </fragment>-->
+
+
+</navigation>

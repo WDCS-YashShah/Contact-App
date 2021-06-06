@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_local_contacts"
+        android:icon="@drawable/ic_contacts"
+        android:title="Local Contacts" />
+
+    <item
+        android:id="@+id/navigation_cloud_contacts"
+        android:icon="@drawable/ic_cloud"
+        android:title="Cloud Contacts" />
+
+    <item
+        android:id="@+id/navigation_add_contact"
+        android:icon="@drawable/ic_person_add"
+        android:title="Add Contact" />
+
+</menu>
